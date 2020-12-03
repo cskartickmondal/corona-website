@@ -1,0 +1,59 @@
+
+
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+	font-family:  'Lato', sans-serif;
+}
+.text1{
+	font-size: 40px;
+
+}
+
+.text1 img{
+	border-radius: 50px;
+	border: 10px solid red;
+}
+.coronago{
+animation: coronago 3s linear infinite; 
+
+}
+@keyframes coronago{
+	0%{transform: rotate(0);}
+	100%{transform: rotate(360deg);}
+}
+
+.corona img{
+animation: corona 2s linear infinite; 
+}
+@keyframes corona{
+	0%{transform: scale(0.75)}
+	20%{transform: scale(1)}
+	40%{transform: scale(0.75)}
+	60%{transform: scale(1)}
+	80%{transform: scale(0.75)}
+	100%{transform: scale(1)}
+}
+#mybtn{
+	position: fixed;
+	bottom:30px ;
+	right: 40px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #00A8FF;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 10px;
+	display:none ;
+}
+#mybtn:hover{
+	background: #606060;
+}
+.footing1 p{
+	/* bottom: 0!important; */
+	margin-bottom: 0!important;
+}
